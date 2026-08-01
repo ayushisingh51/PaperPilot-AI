@@ -2,7 +2,7 @@
 
 An MCP (Model Context Protocol) server that lets an AI client search arXiv, fetch papers, and answer questions **grounded in the actual paper text** — a full retrieve-and-generate RAG pipeline exposed through all three MCP primitives (tools, resources, and prompts), plus a standalone demo UI.
 
-[![Tests](https://github.com/YOUR_USERNAME/research-mcp/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR_USERNAME/research-mcp/actions/workflows/tests.yml)
+[![Tests](https://github.com/ayushisingh51/PaperPilot-AI/actions/workflows/tests.yml/badge.svg)](https://github.com/ayushisingh51/PaperPilot-AI/actions/workflows/tests.yml)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -66,8 +66,8 @@ flowchart LR
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/research-mcp.git
-cd research-mcp
+git clone https://github.com/ayushisingh51/PaperPilot-AI.git
+cd PaperPilot-AI
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -110,7 +110,7 @@ pytest tests/ -v
 
 ## Project structure
 ```
-research-mcp/
+PaperPilot-AI/
 ├── server.py                # MCP server: tools, resources, prompts
 ├── demo_app.py               # Standalone Streamlit demo UI
 ├── tests/
