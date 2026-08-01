@@ -1,4 +1,4 @@
-# 📄 Research Assistant — MCP Server + RAG Pipeline
+#  PaperPilot AI — MCP-Powered Semantic Research Platform
 
 An MCP (Model Context Protocol) server that lets an AI client search arXiv, fetch papers, and answer questions **grounded in the actual paper text** — a full retrieve-and-generate RAG pipeline exposed through all three MCP primitives (tools, resources, and prompts), plus a standalone demo UI.
 
