@@ -1,0 +1,11 @@
+mcp
+arxiv
+httpx
+pypdf
+sentence-transformers
+numpy
+groq
+python-dotenv
+pytest
+pytest-mock
+streamlit
