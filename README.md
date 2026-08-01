@@ -6,8 +6,19 @@ An MCP (Model Context Protocol) server that lets an AI client search arXiv, fetc
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<!-- Replace with your actual demo GIF/screenshot once recorded -->
-<!-- ![demo](docs/demo.gif) -->
+## 📸 Demo
+
+###  Search & Fetch
+
+![Search](docs/home.png)
+
+###  Ask a Paper
+
+![Ask](docs/askPaper.png)
+
+###  Compare Papers
+
+![Compare](docs/comparePaper.png)
 
 ## Why this exists
 

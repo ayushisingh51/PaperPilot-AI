@@ -52,7 +52,7 @@ if "fetched_papers" not in st.session_state:
 if "search_results" not in st.session_state:
     st.session_state.search_results = []
 
-tab_search, tab_ask, tab_compare = st.tabs(["🔍  Search & Fetch", "💬  Ask a Paper", "⚖️  Compare Papers"])
+tab_search, tab_ask, tab_compare = st.tabs(["Search & Fetch", "Ask a Paper", "Compare Papers"])
 
 # --- Tab 1: search + fetch, full width, grid layout -------------------------
 with tab_search:
@@ -124,7 +124,7 @@ with tab_ask:
                 else:
                     st.markdown("**Answer**")
                     st.write(result["answer"])
-                    with st.expander("🔍 Show retrieved excerpts (this is the RAG part)"):
+                    with st.expander(" Show retrieved excerpts (this is the RAG part)"):
                         st.text(result["context"])
             else:
                 st.caption("Your answer will appear here.")
