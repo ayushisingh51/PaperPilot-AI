@@ -278,7 +278,7 @@ def _compare_papers_raw(paper_id_1: str, paper_id_2: str) -> dict:
         context_2 = _retrieve_top_chunks(*cached_2, probe, top_k=3)
 
         response = groq_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             max_tokens=700,
             messages=[{
                 "role": "user",
