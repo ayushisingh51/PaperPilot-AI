@@ -231,7 +231,7 @@ def _ask_paper_raw(paper_id: str, question: str) -> dict:
     try:
         context = _retrieve_top_chunks(chunks, embeddings, question, top_k=3)
         response = groq_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             max_tokens=500,
             messages=[{
                 "role": "user",
