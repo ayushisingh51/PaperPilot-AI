@@ -38,7 +38,7 @@ with st.sidebar:
     st.metric("Papers in library", n_papers)
 
     st.divider()
-    st.caption("🔗 [View source on GitHub](#)")  # replace with your repo link
+    st.caption("🔗 [View source on GitHub](https://github.com/ayushisingh51/PaperPilot-AI)")  # replace with your repo link
 
 st.title("📄 PaperPilot AI")
 st.caption("Search arXiv, fetch a paper, and ask questions grounded in its actual content.")
